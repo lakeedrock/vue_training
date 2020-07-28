@@ -1,0 +1,42 @@
+body{
+    font-family: 'Helvetica';
+}
+
+.main_wrapper {
+    width: 25%;
+    border: 1px solid darkblue;
+}
+
+img.header_image {
+    width: 100%;
+}
+
+.text_description {
+    padding: 10px 5px;
+}
+
+p.description {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.text_category {
+    padding: 10px 10px;
+}
+
+.text_header {
+    padding: 10px 5px;
+}
+
+span.heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span.category {
+    font-size: 13px;
+    font-weight: bold;
+    color: lightseagreen;
+}
