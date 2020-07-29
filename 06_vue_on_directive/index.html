@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VueJS Training</title>
+  <link rel="stylesheet" href="../assets/styles/styles.css" />
+  <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- v-on directive -->
+    <p>
+      <button v-on:click="click_me">Click Me</button>
+    </p>
+    <!-- v-on directive with arguments-->
+    <p>
+      <button v-on:click="click_now('Lakshan','Costa')">Welcome</button>
+    </p>
+
+    <p>
+      <button v-on:click="value=!value">Change Value</button>
+      <span v-text="value"></span>
+    </p>
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
