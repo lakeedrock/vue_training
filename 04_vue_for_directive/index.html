@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VueJS Training</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <span>
+        <h3>Vehicles for sale</h3>
+      </span>
+      <ul v-for="car in data_set">
+        <li><span>Brand : {{car.brand}}</span></li>
+        <li><span>Model : {{car.model}}</span></li>
+        <li><span>Engine : {{car.engine}}</span></li>
+        <li><span>Transmission : {{car.transmission}}</span></li>
+        <li><span>PriceS : {{car.price}}</span></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

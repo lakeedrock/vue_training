@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VueJS Training</title>
+  <link rel="stylesheet" href="../assets/styles/styles.css" />
+  <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- v-show is hiding it -->
+    <p v-show="value">New P Tag v-show</p>
+    <p><span v-text="value"></span></p>
+
+    <!-- v-if not loading it -->
+    <p v-if="value ==4">New P Tag v-if {{value}}</p>
+    <p v-else-if="value ==3">New P Tag v-if {{value}}</p>
+    <p v-else-if="value ==2">New P Tag v-if {{value}}</p>
+    <p v-else-if="value ==1">New P Tag v-if {{value}}</p>
+    <p v-else>New P Tag v-else {{value}}</p>
+
+    <p>
+      <button v-on:click="value = value - 1">Change Value</button>
+    </p>
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
