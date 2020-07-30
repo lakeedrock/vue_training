@@ -1,7 +1,7 @@
 const vm = new Vue({
   el: "#app",
   data: {
-    value: false,
+    value: 4,
   },
   methods: {
 
