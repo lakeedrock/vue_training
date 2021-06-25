@@ -7,3 +7,5 @@ const vm = new Vue({
     el: '#app',
     data: model,
 });
+
+// Starting script
